@@ -20,18 +20,9 @@ description: |
   - "🔑 Keyword search"
   - "⚡ Batch Processing"
 
-# installation:
-  steps:
-    - "git clone https://github.com/<your-username>/hr-smart-recruiter.git"
-    - "cd hr-smart-recruiter"
-    - "python -m venv venv"
-    - "source venv/bin/activate   # On Mac/Linux"
-    - "venv\\Scripts\\activate    # On Windows"
-    - "pip install -r requirements.txt"
 
 # usage:
   run: "streamlit run app.py"
-  url: "http://localhost:8501"
 
 # dataset:
   file: "UpdatedResumeDataSet.csv"
