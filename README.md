@@ -1,33 +1,61 @@
-# 🎯 HR Smart Recruiter Pro
+## project: "HR Smart Recruiter Pro"
+description: |
+  🚀 AI-powered recruitment platform designed to streamline and automate the hiring process.
+  Analyze, categorize, and search through candidate CVs (PDF/DOCX) quickly and efficiently using **Streamlit**.
 
-🚀 **HR Smart Recruiter Pro** is an AI-powered recruitment platform designed to streamline and automate the hiring process.  
-It supports CV parsing, text cleaning, categorization, and analytics with a modern interactive UI built using **Streamlit**.  
+## structure:
+  root: "hr-smart-recruiter/"
+  files:
+    - app.py: "Main Streamlit app"
+    - Smart HR.ipynb: "Notebook for dataset exploration & training"
+    - UpdatedResumeDataSet.csv: "Resume dataset"
+    - requirements.txt: "Dependencies"
+    - README.md: "Documentation"
 
----
+## features:
+  - "📄 Multi-format CV parsing → Supports PDF & DOCX"
+  - "🧹 Text cleaning & preprocessing"
+  - "🧠 AI-powered categorization (placeholder model included)"
+  - "📊 Analytics Dashboard"
+  - "🔑 Keyword search"
+  - "⚡ Batch Processing"
 
-## 📂 Project Structure
-.
-├── app.py # Main Streamlit application
-├── Smart HR.ipynb # Jupyter notebook (model training & experimentation)
-├── UpdatedResumeDataSet.csv # Dataset for resume classification
-└── README.md # Project documentation
+# installation:
+  steps:
+    - "git clone https://github.com/<your-username>/hr-smart-recruiter.git"
+    - "cd hr-smart-recruiter"
+    - "python -m venv venv"
+    - "source venv/bin/activate   # On Mac/Linux"
+    - "venv\\Scripts\\activate    # On Windows"
+    - "pip install -r requirements.txt"
 
----
+# usage:
+  run: "streamlit run app.py"
+  url: "http://localhost:8501"
 
-## ✨ Features
-- 📄 **Multi-format CV parsing** → Supports PDF & DOCX  
-- 🧹 **Text cleaning & preprocessing** → Removes noise, special chars, URLs, etc.  
-- 🧠 **AI-powered categorization** (mock models used for now, can be replaced with trained models)  
-- 📊 **Analytics Dashboard** → Word count, categories, confidence scores  
-- 🔑 **Keyword & Skills Extraction** (basic mock extraction in current version)  
-- 📈 **Reporting & Insights** → Summary statistics & visualizations  
-- ⚡ **Batch Processing** → Upload multiple CVs at once  
+# dataset:
+  file: "UpdatedResumeDataSet.csv"
+  description: "Dataset for model training/testing"
+  notebook: "Smart HR.ipynb → exploration & analysis"
 
----
+# dependencies:
+  - python
+  - streamlit
+  - joblib
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - PyPDF2
+  - python-docx
 
-## 🛠️ Installation
+# future_improvements:
+  - "Integrate trained ML/DL models"
+  - "Add semantic search with embeddings (FAISS + E5)"
+  - "Deploy with Docker or Streamlit Cloud"
+  - "Add candidate ranking"
 
-Clone this repository:
-```bash
-git clone https://github.com/<your-username>/hr-smart-recruiter.git
-cd hr-smart-recruiter
+license: "MIT License"
+EOF
+
+echo "✅ README.md created in YAML format (with dependencies included)"
