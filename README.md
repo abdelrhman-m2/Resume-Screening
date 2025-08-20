@@ -6,6 +6,7 @@ It supports CV parsing, text cleaning, categorization, and analytics with a mode
 ---
 
 ## 📂 Project Structure
+.
 ├── app.py # Main Streamlit application
 ├── Smart HR.ipynb # Jupyter notebook (model training & experimentation)
 ├── UpdatedResumeDataSet.csv # Dataset for resume classification
